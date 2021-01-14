@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element Styling */
+body { 
+    font-family: 'Lato', 'Arial', 'Sans-Serif';
+}
+
+/* Section: Main Content */
+#main-section {
+    display: flex;
+    min-height: 100vh;
+}
+
+#main-section #sidebar-navigation {
+    background: #000;
+    height: 100vh;
+    overflow-y: auto;
+    flex: 1;
+    color: #fff;
+    padding: 3rem 2rem;
+}
+
+#main-section #main-content {
+    flex: 4.5;
+    overflow: hidden;
+}
