@@ -28,6 +28,6 @@ body {
 }
 
 #main-section #main-content {
-    flex: 4.5;
+    flex: 5;
     overflow: hidden;
 }
