@@ -10,7 +10,11 @@
 /* Element Styling */
 body { 
     font-family: 'Lato', 'Arial', 'Sans-Serif';
+    line-height: 1.5;
 }
+
+/* Utility Classes */
+.L-heading { font-size: 2rem; }
 
 /* Section: Main Content */
 #main-section {
