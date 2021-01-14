@@ -10,6 +10,7 @@
 /* Element Styling */
 body { 
     font-family: 'Lato', 'Arial', 'Sans-Serif';
+    background-color: cyan;
 }
 
 /* Section: Main Content */
@@ -31,3 +32,10 @@ body {
     flex: 5;
     overflow: hidden;
 }
+
+
+.center {
+    text-align: center;
+    font-size: xxx-large;
+}
+
