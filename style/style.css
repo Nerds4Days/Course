@@ -10,8 +10,19 @@
 /* Element Styling */
 body { 
     font-family: 'Lato', 'Arial', 'Sans-Serif';
+<<<<<<< HEAD
     background-color: cyan;
+=======
+    line-height: 1.5;
+    background: cyan;
+>>>>>>> 5c7478c67a1e6f00497761f274696b245c44166b
 }
+
+/* Utility Classes */
+.XL-heading { font-size: 2.5rem; }
+.L-heading { font-size: 1.7rem; }
+
+.center { text-align: center; }
 
 /* Section: Main Content */
 #main-section {
@@ -28,6 +39,7 @@ body {
     padding: 3rem 2rem;
 }
 
+<<<<<<< HEAD
 #main-section #main-content {
     flex: 5;
     overflow: hidden;
@@ -39,3 +51,8 @@ body {
     font-size: xxx-large;
 }
 
+=======
+#main-section #sidebar-navigation h1 { margin-bottom: 4rem; }
+
+#main-section #main-content { flex: 5; }
+>>>>>>> 5c7478c67a1e6f00497761f274696b245c44166b
