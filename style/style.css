@@ -10,13 +10,21 @@
 /* Element Styling */
 body { 
     font-family: 'Lato', 'Arial', 'Sans-Serif';
-<<<<<<< HEAD
-    background-color: cyan;
-=======
     line-height: 1.5;
     background: cyan;
->>>>>>> 5c7478c67a1e6f00497761f274696b245c44166b
 }
+
+h2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+a {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
 
 /* Utility Classes */
 .XL-heading { font-size: 2.5rem; }
@@ -39,20 +47,15 @@ body {
     padding: 3rem 2rem;
 }
 
-<<<<<<< HEAD
-#main-section #main-content {
-    flex: 5;
-    overflow: hidden;
-}
-
-
-.center {
-    text-align: center;
-    font-size: xxx-large;
-}
-
-=======
 #main-section #sidebar-navigation h1 { margin-bottom: 4rem; }
 
 #main-section #main-content { flex: 5; }
->>>>>>> 5c7478c67a1e6f00497761f274696b245c44166b
+
+
+#sidebar-navigation h2:hover{
+    color: #f1f1f185;
+}
+
+.selected{
+    color: dimgrey;
+}
