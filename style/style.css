@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+/* Variables */
+:root {
+    --primary-color: #75ca9b;
+    --secondary-color: #ee75a4;
+}
+
 /* Reset */
 * {
     margin: 0;
@@ -11,7 +17,15 @@
 body { 
     font-family: 'Lato', 'Arial', 'Sans-Serif';
     line-height: 1.5;
-    background: cyan;
+    background: #f4f4f4;
+}
+
+ul { list-style: none; }
+
+a {
+    text-decoration: none;
+    color: #f4f4f4;
+    transition: all 0.5s ease;
 }
 
 /* Utility Classes */
@@ -34,6 +48,34 @@ body {
     color: #fff;
     padding: 3rem 2rem;
 }
+
+/* Sidebar Links */
+.links-list li a {
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.links-list li { margin: .25rem 0; }
+
+.links-list li a:hover { color: var(--primary-color); }
+
+.links-list li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: var(--secondary-color);
+    bottom: -5px;
+    left: 50%;
+    transition: all 0.3s ease;
+}
+
+.links-list li a:hover::after {
+    left: 0;
+    width: 100%;
+}
+
+.links-list li a.current { color: var(--secondary-color); }
 
 #main-section #sidebar-navigation h1 { margin-bottom: 4rem; }
 
