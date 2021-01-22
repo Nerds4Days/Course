@@ -46,7 +46,7 @@ a {
     overflow-y: auto;
     flex: 1;
     color: #fff;
-    padding: 3rem 2rem;
+    padding: 2rem 1.5rem;
 }
 
 /* Sidebar Links */
@@ -55,7 +55,7 @@ a {
     position: relative;
 }
 
-.links-list li { margin: .25rem 0; }
+.links-list li { margin: .75rem 0; }
 
 .links-list li a:hover { color: var(--primary-color); }
 
