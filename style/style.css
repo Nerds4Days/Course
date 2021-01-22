@@ -2,7 +2,7 @@
 
 /* Variables */
 :root {
-    --primary-color: #75ca9b;
+    --primary-color: #00CBA9;
     --secondary-color: #ee75a4;
 }
 
@@ -34,7 +34,7 @@ a {
 
 .center { text-align: center; }
 
-/* Section: Main Content */
+/* Section: Main Section */
 #main-section {
     display: flex;
     min-height: 100vh;
@@ -45,7 +45,7 @@ a {
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
-    flex: 1;
+    width: 300px;
     color: #fff;
     padding: 2rem 1.5rem;
 }
@@ -58,14 +58,12 @@ a {
 
 .links-list li { margin: .75rem 0; }
 
-.links-list li a:hover { color: var(--primary-color); }
-
 .links-list li a::after {
     content: '';
     position: absolute;
     width: 0;
     height: 2px;
-    background: var(--secondary-color);
+    background: var(--primary-color);
     bottom: -5px;
     left: 50%;
     transition: all 0.3s ease;
@@ -80,4 +78,13 @@ a {
 
 #main-section #sidebar-navigation h1 { margin-bottom: 4rem; }
 
-#main-section #main-content { flex: 5; }
+/* Main Content */
+#main-section #main-content {
+    flex: 1;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+#main-content .content {
+    padding: 2rem;
+}
