@@ -33,6 +33,8 @@ a {
 .L-heading { font-size: 1.7rem; }
 
 .center { text-align: center; }
+.bottom { align-self: end; }
+.top { align-self: start; }
 
 /* Section: Main Section */
 #main-section {
@@ -83,8 +85,8 @@ a {
     flex: 1;
     height: 100vh;
     overflow-y: auto;
+    display: grid;
+    grid-gap: 5rem;
 }
 
-#main-content .content {
-    padding: 2rem;
-}
+#main-content .content { padding: 2rem; }
